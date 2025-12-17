@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/*header et nav */
+header{
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #102542;
+}
+#logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a{
+    font-style: italic;
+    font-weight: bold;
+    color: #01e9db;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav a:hover{
+    color: white;
+}
+/* section de présentation */
+.presentation{
+    padding:100px 50px;
+}
+.presentation h1{
+    text-align: center;
+    color: #102542;
+    text-transform: uppercase;
+}
+.cartPresentation{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.cartPresentation p{
+    text-align: left;
+    width: 60%;
+}
+.cartPresentation img{
+    width: 300px;
+}
+/*section service*/
+.service{
+    padding: 10px 50px;
+}
+.service h2{
+    text-align: center;
+    color: #102542;
+    text-transform: uppercase;
+}
+.card{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+.cart-content{
+    background: #f5f5f5;
+    border: 2px dotted #102542;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.cart-content img{
+    width: 100%;
+    height: 150px;
+}
+.cart-content:hover{
+    margin-bottom: 1px;
+    background-color: #102542;
+}
+.cart-content:hover span{
+    color: white;
+}
+.cart-content:hover p{
+    color: white;
+}
+.cart-content p{
+    text-align: center;
+    padding: 20px 0;
+}
+.cart-content span{
+    font-weight: bold;
+    font-style: italic;
+    color: #102542;
+}
+/*Contact et Inscription*/
+.contact_inscription{
+    padding: 10px 50px;
+}
+.contact_inscription form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.contact_inscription h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #102542;
+}
+.contact_inscription p{
+    text-align: center;
+    padding-top: 10px;
+}
+.form-content input{
+    width: 600px;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid #102542;
+    border-left: 2px solid #102542;
+    border-radius: 30px;
+    outline: none;
+    color: #102542;
+    font-weight: bold;
+}
+.form-content label{
+    font-weight: bold;
+    color: #01e9db;
+}
+.form-content button{
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
+    background: #01e9db;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-content button:hover{
+    color: white;
+    background: #102542;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background: #102542;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer ul li a{
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+    color: #102542;
+}
+footer p, span{
+    color: white;
+}
